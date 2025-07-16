@@ -26,7 +26,7 @@
 Listes des attaques : 
     - Scans NMAP
         - SYN scan "bourrins" ==> ok
-        - SSH brute force (hydra / medusa) => plusieurs règles car ip peut changer (vpn / tor) 
+        - SSH brute force (hydra / medusa) => plusieurs règles car ip peut changer (vpn / tor) ==> ok
         - HTTP -> XSS et SQLi
         - ICMP (Ping flood)
         - PCAP contenant payload connus (reverse_tcp non-chiffré)
