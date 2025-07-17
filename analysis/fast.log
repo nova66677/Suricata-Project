@@ -1,0 +1,1 @@
+07/16/2025-19:28:26.664734  [**] [1:100003:1] [ALERT] XSS - <script> tag in URL (GET) [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 127.0.0.1:43658 -> 127.0.0.1:80

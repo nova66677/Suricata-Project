@@ -1,0 +1,16 @@
+Nmap SYN Scan :
+    -On ne détecte que le traffic en dehors de notre réseau (débatable car scan local après pwned possible)
+    -Stateless car le 3-WH n'est jamais accomplie lord du SYN scan
+    -On place un threshold à 20 requests en 3 secondes depuis la même ip, afin de trigger l'alert même si l'attaquant joue sur la rapidité du scan (-T 1-5)
+
+SSH bruteforce :
+    Le procole SSH étant basé sur TCP, il necessite un 3WH sur le port 22 afin d'établir la connexion
+    - Brute force donc recherche de pattern inutile
+
+HTTP - XSS payload detectio :
+    - Plusieurs payloads avec mots clefs possibles : trop de bypass possibles
+    ex : "<scr<script>ipt>" est un bon bypass : le dummy "<script>" sera filtré par une fonction sanitizer, laissant le véritable payload dans la requête.
+    => Solution : les pcre (pearl compatible regular expressions)
+
+    - Agissons méthodiquement : commençons par les GET , sans d'occuper des methodes de bypass
+        - <script> est à banir d'office

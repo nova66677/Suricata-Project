@@ -1,0 +1,61 @@
+# HTTP GET - <script>
+alert http any any -> any any (msg:"[ALERT] XSS - <script> tag in URL (GET)"; content:"<script>"; http_uri; nocase; content:"GET"; http_method; classtype:web-application-attack; sid:100003; rev:1;)
+
+
+# HTTP GET javascript
+
+alert http any any -> any any (msg:"[ALERT] XSS - javascript URI detected (GET)"; content:"javascript:"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100004; rev:1;)
+
+
+#  HTTP - GET - onerror
+
+alert http any any -> any any (msg:"[ALERT] XSS - onerror attribute detected (GET)"; content:"onerror="; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100102; rev:1;)
+
+
+# HTTP - GET - PCRE VERSION
+
+#alert http any any -> any any (msg:"[ALERT] XSS - <script> tag with content (GET, PCRE)"; pcre:"/<script.*?>.*?<\/script>/i"; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100103; rev:1;)
+
+
+# HTTP - GET - PCRE sur ALERT
+
+#alert http any any -> any any (msg:"[ALERT] XSS - alert() call detected (GET)"; pcre:"/alert\s*?\(/i"; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100104; rev:1;)
+
+
+# HTTP - GET - IFRAME
+
+alert http any any -> any any (msg:"[ALERT] XSS - <iframe> tag detected in GET"; content:"<iframe>"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100120; rev:1;)
+
+
+# HTTP - GET - IFRAME scr=
+
+alert http any any -> any any (msg:"[ALERT] XSS - iframe src attribute in GET"; content:"<iframe"; nocase; http_uri; content:"src="; distance:0; content:"GET"; http_method; classtype:web-application-attack; sid:100121; rev:1;)
+
+
+
+# HTTP - GET - IFRAME version PCRE
+
+#alert http any any -> any any (msg:"[ALERT] XSS - complete iframe tag (GET, PCRE)"; pcre:"/<iframe.*?>.*?<\/iframe>/i"; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100122; rev:1;)
+
+
+
+# HTTP - GET - IFRAME ONLOAD
+
+alert http any any -> any any (msg:"[ALERT] XSS - iframe with onload and alert (GET)"; content:"<iframe"; nocase; http_uri; content:"onload="; distance:0; nocase; content:"alert("; distance:0; nocase; content:"GET"; http_method; classtype:web-application-attack; sid:100125; rev:1;)
+
+
+# HTTP - GET - fromCharCode - équivalent des eval() sous python2, si cette fonction a été retirée de python3
+# c'est qu'il y a peut-être une raison :)  
+
+alert http any any -> any any (msg:"[ALERT] XSS - use of fromCharCode() detected in GET"; content:"fromCharCode"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100130; rev:1;)
+
+
+# HTTP - GET - fromCharCode version PCRE 
+
+#alert http any any -> any any (msg:"[ALERT] XSS - String.fromCharCode() call detected (GET)"; pcre:"/String\s*?\.\s*?fromCharCode\s*?\(/i"; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100131; rev:1;)
+
+
+# HTTP - GET - fromCharCode encoded
+
+alert http any any -> any any (msg:"[ALERT] XSS - Encoded fromCharCode() detected (GET)"; content:"%66%72%6F%6D%43%68%61%72%43%6F%64%65"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100132; rev:1;)
+

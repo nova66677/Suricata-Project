@@ -1,0 +1,62 @@
+#  Balise <script> simple dans le body
+
+alert http any any -> any any (
+    msg:"[ALERT] XSS - <script> tag in POST body";
+    content:"<script>";
+    http_client_body;
+    http_method; content:"POST";
+    nocase;
+    classtype:web-application-attack;
+    sid:200100;
+    rev:1;
+)
+
+#  balise multi-content
+
+alert http any any -> any any (
+    msg:"[ALERT] XSS - <img onerror=alert()> in POST body";
+    content:"<img";
+    http_client_body;
+    nocase;
+    content:"onerror=";
+    distance:0;
+    content:"alert(";
+    distance:0;
+    http_method; content:"POST";
+    classtype:web-application-attack;
+    sid:200101;
+    rev:1;
+)
+
+# script full
+
+alert http any any -> any any (
+    msg:"[ALERT] XSS - <script> tag block in POST body (PCRE)";
+    pcre:"/<script.*?>.*?<\/script>/i";
+    http_client_body;
+    http_method; content:"POST";
+    classtype:web-application-attack;
+    sid:200103;
+    rev:1;
+)
+
+
+alert http any any -> any any (
+    msg:"[ALERT] XSS via onerror attribute (POST)";
+    http_method; content:"POST";
+    pcre:"/<img[^>]*?onerror\s*?=/i";
+    http_client_body;
+    classtype:web-application-attack;
+    sid:100011;
+    rev:1;
+)
+
+alert http any any -> any any (
+    msg:"[ALERT] javascript: URI in POST data";
+    http_method; content:"POST";
+    pcre:"/javascript\s*?:/i";
+    http_client_body;
+    classtype:web-application-attack;
+    sid:100012;
+    rev:1;
+)

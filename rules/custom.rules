@@ -1,0 +1,45 @@
+alert tcp !$HOME_NET any -> $HOME_NET any (
+    msg:"[ALERT] Possible External Nmap SYN Scan on Server";
+    flags:S;
+    flow: stateless; 
+    threshold: type both, track by_src, count 20, seconds 3;
+    sid:100001;
+    classtype:attempted-recon;
+    rev:1;
+)
+
+
+alert tcp !$HOME_NET any -> $HOME_NET 22 (
+    msg:"[ALERT] Possible SSH Brute Force Attack";
+    flags:S;
+    flow: stateless;
+    threshold: type both, track by_src, count 10, seconds 60;
+    classtype:attempted-admin;
+    priority:2;
+    sid:100002;
+    rev:1;
+)
+
+
+############################# HTTP - POST REQUESTS ######################################
+
+
+alert http any any -> any any (
+    msg:"[ALERT] XSS via onerror attribute (POST)";
+    http_method; content:"POST";
+    pcre:"/<img[^>]*?onerror\s*?=/i";
+    http_client_body;
+    classtype:web-application-attack;
+    sid:100011;
+    rev:1;
+)
+
+alert http any any -> any any (
+    msg:"[ALERT] javascript: URI in POST data";
+    http_method; content:"POST";
+    pcre:"/javascript\s*?:/i";
+    http_client_body;
+    classtype:web-application-attack;
+    sid:100012;
+    rev:1;
+)

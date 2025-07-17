@@ -1,0 +1,13 @@
+
+# Chevrons encodés
+
+alert http any any -> any any (msg:"[ALERT] XSS - Encoded <script> tag in POST"; content:"%3Cscript%3E"; http_client_body; content:"POST"; http_method; nocase; classtype:web-application-attack; sid:110000; rev:1;)
+
+#  FromCharCode body 
+
+alert http any any -> any any (msg:"[ALERT] XSS - fromCharCode() used in POST body"; content:"fromCharCode"; http_client_body; content:"POST"; http_method; nocase; classtype:web-application-attack; sid:111000; rev:1;)
+
+# document.cookie
+
+alert http any any -> any any (msg:"[ALERT] XSS - document.cookie access in POST body"; content:"document.cookie"; http_client_body; content:"POST"; http_method; nocase; classtype:web-application-attack; sid:111100; rev:1;)
+

@@ -1,0 +1,1128 @@
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: cpu: CPUs/cores online: 16
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: suricata: Setting engine mode to IDS mode by default
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: exception-policy: master exception-policy set to: auto
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: logopenfile: fast output device (regular) initialized: fast.log
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: logopenfile: stats output device (regular) initialized: stats.log
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Warning: detect: No rule files match the pattern /etc/suricata/rules/suricata.rules
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 3
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 12
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 16
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 24
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 37
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 50
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 56
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 64
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 68
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 76
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 89
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 93
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 105
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 109
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 119
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 123
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 135
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: Signature missing required value "sid".
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect-parse: no rule options.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Warning: detect: 6 rule files specified, but no rules were loaded!
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[4213 - RX#01] 2025-07-16 19:29:46 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[4213 - RX#01] 2025-07-16 19:29:46 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Notice: suricata: Signal Received.  Stopping engine.
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: suricata: time elapsed 0.091s
+[4213 - RX#01] 2025-07-16 19:29:46 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[4213 - RX#01] 2025-07-16 19:29:46 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[4212 - Suricata-Main] 2025-07-16 19:29:46 Info: counters: Alerts: 0
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: cpu: CPUs/cores online: 16
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: suricata: Setting engine mode to IDS mode by default
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: exception-policy: master exception-policy set to: auto
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: logopenfile: fast output device (regular) initialized: fast.log
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: logopenfile: stats output device (regular) initialized: stats.log
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 3
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 12
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 16
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 24
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 37
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 50
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 56
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 64
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 68
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 76
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 89
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 93
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 105
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 109
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 119
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 123
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 135
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: Signature missing required value "sid".
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect-parse: no rule options.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Warning: detect: 5 rule files specified, but no rules were loaded!
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[4335 - RX#01] 2025-07-16 19:32:10 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[4335 - RX#01] 2025-07-16 19:32:10 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Notice: suricata: Signal Received.  Stopping engine.
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: suricata: time elapsed 0.088s
+[4335 - RX#01] 2025-07-16 19:32:10 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[4335 - RX#01] 2025-07-16 19:32:10 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[4334 - Suricata-Main] 2025-07-16 19:32:10 Info: counters: Alerts: 0
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: cpu: CPUs/cores online: 16
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: suricata: Setting engine mode to IDS mode by default
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: exception-policy: master exception-policy set to: auto
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: logopenfile: fast output device (regular) initialized: fast.log
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: logopenfile: stats output device (regular) initialized: stats.log
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: "http_method" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_method" keyword
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (msg:"[ALERT] XSS - Encoded <script> in URL (GET)";content:"%3Cscript%3E";nocase;http_uri;http_method; content:"GET";classtype:web-application-attack;sid:100105;rev:1;)" from file /etc/suricata/rules/http-get-bypass.rules at line 3
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 7
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 15
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 19
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 32
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 47
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 55
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 59
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 67
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 71
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 84
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 96
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 100
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 110
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 114
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 126
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: Signature missing required value "sid".
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect-parse: no rule options.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Warning: detect: 5 rule files specified, but no rules were loaded!
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[4431 - RX#01] 2025-07-16 19:33:55 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[4431 - RX#01] 2025-07-16 19:33:55 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Notice: suricata: Signal Received.  Stopping engine.
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: suricata: time elapsed 0.088s
+[4431 - RX#01] 2025-07-16 19:33:55 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[4431 - RX#01] 2025-07-16 19:33:55 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[4430 - Suricata-Main] 2025-07-16 19:33:55 Info: counters: Alerts: 0
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: cpu: CPUs/cores online: 16
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: suricata: Setting engine mode to IDS mode by default
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: exception-policy: master exception-policy set to: auto
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: logopenfile: fast output device (regular) initialized: fast.log
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: logopenfile: stats output device (regular) initialized: stats.log
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: "http_method" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_method" keyword
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (msg:"[ALERT] XSS - Encoded <script> in URL (GET)";content:"%3Cscript%3E";nocase;http_uri;http_method; content:"GET";classtype:web-application-attack;sid:100105;rev:1;)" from file /etc/suricata/rules/http-get-bypass.rules at line 3
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 7
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 15
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 19
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 32
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 47
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 55
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 59
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 67
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 71
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 84
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 96
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 100
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 110
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 114
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 126
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: Signature missing required value "sid".
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect-parse: no rule options.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Warning: detect: 5 rule files specified, but no rules were loaded!
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[3381 - RX#01] 2025-07-17 08:38:04 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[3381 - RX#01] 2025-07-17 08:38:04 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Notice: suricata: Signal Received.  Stopping engine.
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: suricata: time elapsed 0.086s
+[3381 - RX#01] 2025-07-17 08:38:04 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[3381 - RX#01] 2025-07-17 08:38:04 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[3380 - Suricata-Main] 2025-07-17 08:38:04 Info: counters: Alerts: 0
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: cpu: CPUs/cores online: 16
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: suricata: Setting engine mode to IDS mode by default
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: exception-policy: master exception-policy set to: auto
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: logopenfile: fast output device (regular) initialized: fast.log
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: logopenfile: stats output device (regular) initialized: stats.log
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: "http_method" keyword found inside the rule without a content context.  Please use a "content" keyword before using the "http_method" keyword
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (msg:"[ALERT] XSS - Encoded <script> in URL (GET)";content:"%3Cscript%3E";nocase;http_uri;http_method; content:"GET";classtype:web-application-attack;sid:100105;rev:1;)" from file /etc/suricata/rules/http-get-bypass.rules at line 3
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 7
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 15
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 19
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 32
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 47
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 55
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 59
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 67
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 71
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 84
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 96
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 100
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 110
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 114
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 126
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: Signature missing required value "sid".
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect-parse: no rule options.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Warning: detect: 5 rule files specified, but no rules were loaded!
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[3996 - RX#01] 2025-07-17 08:40:32 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[3996 - RX#01] 2025-07-17 08:40:32 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Notice: suricata: Signal Received.  Stopping engine.
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: suricata: time elapsed 0.087s
+[3996 - RX#01] 2025-07-17 08:40:32 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[3996 - RX#01] 2025-07-17 08:40:32 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[3995 - Suricata-Main] 2025-07-17 08:40:32 Info: counters: Alerts: 0
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: cpu: CPUs/cores online: 16
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: suricata: Setting engine mode to IDS mode by default
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: exception-policy: master exception-policy set to: auto
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: logopenfile: fast output device (regular) initialized: fast.log
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: logopenfile: stats output device (regular) initialized: stats.log
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 7
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 15
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 19
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 32
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 47
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 55
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 59
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 67
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 71
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 84
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 96
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 100
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 110
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 114
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 126
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: Signature missing required value "sid".
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect-parse: no rule options.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: detect: 5 rule files processed. 1 rules successfully loaded, 66 rules failed, 0
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: detect: 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[4105 - RX#01] 2025-07-17 08:41:14 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[4105 - RX#01] 2025-07-17 08:41:14 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Notice: suricata: Signal Received.  Stopping engine.
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: suricata: time elapsed 0.088s
+[4105 - RX#01] 2025-07-17 08:41:14 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[4105 - RX#01] 2025-07-17 08:41:14 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[4104 - Suricata-Main] 2025-07-17 08:41:14 Info: counters: Alerts: 0
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: cpu: CPUs/cores online: 16
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: suricata: Setting engine mode to IDS mode by default
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: exception-policy: master exception-policy set to: auto
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: logopenfile: fast output device (regular) initialized: fast.log
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: logopenfile: stats output device (regular) initialized: stats.log
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 7
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 15
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 19
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 28
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 32
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 41
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 47
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 55
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 59
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 67
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 71
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 80
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 84
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 96
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 100
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 110
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get-bypass.rules at line 114
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get-bypass.rules at line 126
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 3
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 12
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 16
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 25
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 29
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 38
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 42
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 50
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 54
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 62
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 66
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 75
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 79
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 90
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 95
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 103
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 108
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 121
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 126
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 135
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 139
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 147
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-get.rules at line 151
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-get.rules at line 160
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 4
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 13
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 17
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 26
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post-bypass.rules at line 30
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post-bypass.rules at line 39
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 3
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 12
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 16
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 29
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 33
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 41
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 44
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 52
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/http-post.rules at line 54
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/http-post.rules at line 62
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET any (" from file /etc/suricata/rules/custom.rules at line 1
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 9
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert tcp !$HOME_NET any -> $HOME_NET 22 (" from file /etc/suricata/rules/custom.rules at line 12
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 21
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 27
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 35
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: Signature missing required value "sid".
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature "alert http any any -> any any (" from file /etc/suricata/rules/custom.rules at line 37
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect-parse: no rule options.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Error: detect: error parsing signature ")" from file /etc/suricata/rules/custom.rules at line 45
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: detect: 5 rule files processed. 1 rules successfully loaded, 66 rules failed, 0
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: detect: 1 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 1 inspect application layer, 0 are decoder event only
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[9421 - RX#01] 2025-07-17 10:06:40 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[9421 - RX#01] 2025-07-17 10:06:40 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Notice: suricata: Signal Received.  Stopping engine.
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: suricata: time elapsed 0.091s
+[9421 - RX#01] 2025-07-17 10:06:40 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[9421 - RX#01] 2025-07-17 10:06:40 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[9420 - Suricata-Main] 2025-07-17 10:06:40 Info: counters: Alerts: 0
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: cpu: CPUs/cores online: 16
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: suricata: Setting engine mode to IDS mode by default
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: exception-policy: master exception-policy set to: auto
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: logopenfile: fast output device (regular) initialized: fast.log
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: logopenfile: stats output device (regular) initialized: stats.log
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: detect: 1 rule files processed. 8 rules successfully loaded, 0 rules failed, 0
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: detect: 8 signatures processed. 0 are IP-only rules, 2 are inspecting packet payload, 6 inspect application layer, 0 are decoder event only
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[12524 - RX#01] 2025-07-17 10:59:23 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[12524 - RX#01] 2025-07-17 10:59:23 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Notice: suricata: Signal Received.  Stopping engine.
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: suricata: time elapsed 0.090s
+[12524 - RX#01] 2025-07-17 10:59:23 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[12524 - RX#01] 2025-07-17 10:59:23 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[12523 - Suricata-Main] 2025-07-17 10:59:23 Info: counters: Alerts: 0
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: cpu: CPUs/cores online: 16
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: suricata: Setting engine mode to IDS mode by default
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: exception-policy: master exception-policy set to: auto
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: logopenfile: fast output device (regular) initialized: fast.log
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: logopenfile: stats output device (regular) initialized: stats.log
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: detect: 1 rule files processed. 8 rules successfully loaded, 0 rules failed, 0
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: detect: 8 signatures processed. 0 are IP-only rules, 2 are inspecting packet payload, 6 inspect application layer, 0 are decoder event only
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[13171 - RX#01] 2025-07-17 11:08:25 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[13171 - RX#01] 2025-07-17 11:08:25 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Notice: suricata: Signal Received.  Stopping engine.
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: suricata: time elapsed 0.089s
+[13171 - RX#01] 2025-07-17 11:08:25 Warning: pcap: 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[13171 - RX#01] 2025-07-17 11:08:25 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[13170 - Suricata-Main] 2025-07-17 11:08:25 Info: counters: Alerts: 0
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Notice: suricata: This is Suricata version 7.0.10 RELEASE running in USER mode
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: cpu: CPUs/cores online: 16
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: suricata: Setting engine mode to IDS mode by default
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: exception-policy: master exception-policy set to: auto
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: logopenfile: fast output device (regular) initialized: fast.log
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: logopenfile: stats output device (regular) initialized: stats.log
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: detect: 1 rule files processed. 8 rules successfully loaded, 0 rules failed, 0
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: detect: 8 signatures processed. 0 are IP-only rules, 2 are inspecting packet payload, 6 inspect application layer, 0 are decoder event only
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: unix-manager: unix socket '/var/run/suricata-command.socket'
+[13211 - RX#01] 2025-07-17 11:08:43 Info: pcap: Starting file run for pcaps/script_alert.pcapng
+[13211 - RX#01] 2025-07-17 11:08:43 Info: pcap: pcap file pcaps/script_alert.pcapng end of file reached (pcap err code 0)
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Notice: suricata: Signal Received.  Stopping engine.
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: suricata: time elapsed 0.094s
+[13211 - RX#01] 2025-07-17 11:08:43 Notice: pcap: read 1 file, 14 packets, 1606 bytes
+[13210 - Suricata-Main] 2025-07-17 11:08:43 Info: counters: Alerts: 1

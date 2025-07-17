@@ -1,0 +1,45 @@
+# Encodage des chevrons
+
+alert http any any -> any any (msg:"[ALERT] XSS - Encoded <script> in URL (GET)";content:"%3Cscript%3E";nocase;http_uri;content:"GET";http_method;classtype:web-application-attack;sid:100105;rev:1;)
+
+# Fragmentation des balises <script>
+
+alert http any any -> any any (msg:"[ALERT] XSS - Fragmented <script> tag (GET)"; pcre:"/<scr.*?ipt>/i"; content:"GET"; http_method; http_uri; classtype:web-application-attack; sid:100106; rev:1;)
+
+# HTTP - GET - Encodage des iframes
+
+alert http any any -> any any (msg:"[ALERT] XSS - Encoded <iframe> in GET"; content:"%3Ciframe%3E"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100123; rev:1;)
+
+
+# HTTP - GET - Double Encodage des iframes
+
+alert http any any -> any any (msg:"[ALERT] XSS - Double Encoded <iframe> in GET"; content:"%253Ciframe%253E"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100124; rev:1;)
+
+
+# Hex("javascript")
+
+alert http any any -> any any (msg:"[ALERT] XSS - Encoded javascript: URI (GET)"; pcre:"/%6[aA]%76[aA]%73[aA]%63[aA]%72[aA]%69[aA]%70[aA]%74[aA]%3[aA]/i"; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100107; rev:1;)
+
+
+# HTTP - GET - onerror obfusqué 
+
+alert http any any -> any any (msg:"[ALERT] XSS - onerror attribute with obfuscation (GET)"; pcre:"/onerror\s*?%3[dD]|onerror\s*?=/i"; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100108; rev:1;)
+
+
+# HTTP - GET - document.cookie
+
+alert http any any -> any any (msg:"[ALERT] XSS - Attempt to access document.cookie (GET)"; content:"document.cookie"; nocase; http_uri; content:"GET"; http_method; classtype:web-application-attack; sid:100109; rev:1;)
+
+#  HTTP - GET - img + alert
+
+alert http any any -> any any (msg:"[ALERT] XSS - img tag with onerror + alert() in GET"; content:"GET"; http_method; content:"<img"; http_uri; nocase; content:"onerror="; distance:0; nocase; content:"alert("; distance:0; nocase; classtype:web-application-attack; sid:100111; rev:1;)
+
+
+# HTTP - GET - payload "> très répandu
+
+alert http any any -> any any (msg:"[ALERT] XSS - injection with closing tag and <script> (GET)"; content:"GET"; http_method; content:"\">"; http_uri; nocase; content:"<script>"; distance:0; nocase; classtype:web-application-attack; sid:100112; rev:1;)
+
+
+# HTTP - GET - multi-content 
+
+alert http any any -> any any (msg:"[ALERT] XSS - svg tag with onload + alert (GET)"; content:"GET"; http_method; content:"<svg"; http_uri; nocase; content:"onload="; distance:0; nocase; content:"alert("; distance:0; nocase; classtype:web-application-attack; sid:100113; rev:1;)
